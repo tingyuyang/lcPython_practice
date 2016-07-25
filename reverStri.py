@@ -24,3 +24,14 @@ class Solution(object):
         	length = length - 1
         string = "".join(result)
         return (string)
+        
+"""
+online solution:
+a_string = 'hello'
+new_string = ''
+index = len(a_string)
+while index:
+    index -= 1                    # index = index - 1
+    new_string += a_string[index] # new_string = new_string + character
+print (new_string)
+"""
