@@ -27,6 +27,7 @@ class Solution(object):
         
 """
 online solution:
+
 a_string = 'hello'
 new_string = ''
 index = len(a_string)
