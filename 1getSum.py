@@ -13,8 +13,8 @@ class Solution(object):
                 count = count +1
                 a = a-1
         if (a<0):
-         	while (a !=0):
-         		count = count -1
+            while (a !=0):
+                count = count -1
          		a = a+1
         if (b>0):
             while (b>0):
