@@ -26,3 +26,12 @@ class Solution(object):
                 var = True
         return var
  # my solution is partially guessing. if the stone number is 4, 8, 12.... i will not win for sure.
+"""
+how to print appropriate on repl:
+
+"a = Solution()"
+=>None
+"print a.canWinNim(5)"
+True
+=>None
+"""
