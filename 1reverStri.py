@@ -28,11 +28,11 @@ class Solution(object):
 """
 online solution:
 
-a_string = 'hello'
-new_string = ''
-index = len(a_string)
-while index:
-    index -= 1                    # index = index - 1
-    new_string += a_string[index] # new_string = new_string + character
-print (new_string)
+s = 'hello'
+result =''
+l =len(s)
+while (l>0): #this is the ***key, if (l>=0), won't work
+	l=l-1
+	result = result +s[l]
+print(result)
 """
