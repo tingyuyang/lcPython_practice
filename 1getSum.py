@@ -22,6 +22,6 @@ class Solution(object):
                 b = b -1
         if (b<0):
             while (b !=0):
-         		count = count -1
-         		b = b+1 		
+                count = count -1
+                b = b+1 		
         return (count)  
