@@ -33,6 +33,6 @@ result =''
 l =len(s)
 while (l>0): #this is the ***key, if (l>=0), won't work
 	l=l-1
-	result = result +s[l]
+	result = result +s[l] # interesting, python allows u to do this. umm
 print(result)
 """
