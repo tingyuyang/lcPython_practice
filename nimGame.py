@@ -20,4 +20,4 @@ class Solution(object):
         if (n % 4 == 0):
             var = True
         return var
- # my solution is basically guessing. if the stone number is 4, 8, 12.... i will not win for sure.
+ # my solution is partially guessing. if the stone number is 4, 8, 12.... i will not win for sure.
