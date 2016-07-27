@@ -1,5 +1,5 @@
-# leetcode practice
-leetcode coding practice
+# LC Python Practice
+LC
 * in Python
 * with note for future reference/review
 * online solution at the end, in the comment section
