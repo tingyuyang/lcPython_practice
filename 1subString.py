@@ -6,3 +6,8 @@ def subString(n):
 	checkChar = s[0]
 	result = s[0:1] +s[2:]
 	print (result)
+	
+# subString(123)
+# will print out 13
+# #: 123
+# i: 012
