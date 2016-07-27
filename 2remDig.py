@@ -1,4 +1,7 @@
 def remove(n):
+	if (n<11 or n>1000000000):
+		print('The input number is out of range, please enter another number')
+		return -1
 	s = str(n) # change the int into string
 	max = 0
 	lastChar = s[0]
