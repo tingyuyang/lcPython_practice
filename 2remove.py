@@ -3,7 +3,7 @@
 
 def remove(n):
 	s = str(n) # change the int into string
-	min = 0
+	min = 1000000
 	check = s[0]
 	sub =""
 	for i in range(0,len(s)-1):
@@ -13,7 +13,6 @@ def remove(n):
 		else:
 			a =s[i]
 		sub = s[:i] + a + s[i+2:]
-		print(sub)
-		#if(min > int(sub)):
-				#min = int(sub)
-	return (sub)
+		if(min > int(sub)):
+				min = int(sub)
+	return (min)
