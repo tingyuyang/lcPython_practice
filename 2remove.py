@@ -3,7 +3,7 @@
 
 def remove(n):
 	s = str(n) # change the int into string
-	min = 1000000000
+	min = n
 	check = s[0]
 	sub =""
 	for i in range(0,len(s)-1):
