@@ -1,7 +1,4 @@
 def add(n):
-	if (n<1 or n>100000000):
-		print('The input number is out of range, please enter another number')
-		return -1
 	s=str(n)+' '
 	sub=""
 	max=0
