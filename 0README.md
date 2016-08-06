@@ -1,5 +1,6 @@
 # LC Python Practice
-LC
+>[**Python is Slow?**](http://selfboot.cn/2016/07/24/leetcode_guide_why/)
+
 * in Python
 * with note for future reference/review
 * online solution at the end, in the comment section
