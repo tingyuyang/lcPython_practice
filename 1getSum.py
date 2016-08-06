@@ -1,4 +1,5 @@
 #clearly, the solution is not efficient enough.
+#https://github.com/kamyu104/LeetCode/blob/master/Python/sum-of-two-integers.py
 
 class Solution(object):
     def getSum(self, a, b):
