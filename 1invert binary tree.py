@@ -14,6 +14,6 @@ class Solution(object):
         if not root:
             return None
         root.left, root.right = root.right, root.left
-        self.invertTree(root.left)
+        self.invertTree(root.left) # the method is called "recursion here", we call the method we built again here, not buildIn function
         self.invertTree(root.right)
         return root
