@@ -7,5 +7,5 @@
 * files label with ` 1 ` means it is the `easy` level
 * the higher the number is, the harder the question is
 * Overall Level : 1, 2, 3.
-* http://algorithm.yuanbin.me/en/index.html
+* http://algorithm.yuanbin.me/zh-hans/index.html
 * http://selfboot.cn/2016/07/24/leetcode_guide_why/
