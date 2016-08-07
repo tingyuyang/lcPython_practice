@@ -9,4 +9,4 @@
 * the higher the number is, the harder the question is
 * Overall Level : 1, 2, 3.
 * [LC notes/solutions](http://algorithm.yuanbin.me/zh-hans/index.html)
-* http://selfboot.cn/2016/07/24/leetcode_guide_why/
+* [Why Leetcode](http://selfboot.cn/2016/07/24/leetcode_guide_why/)
