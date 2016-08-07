@@ -13,6 +13,6 @@ class Solution(object):
         """
         if (root == None): # similar as "if root is None".
             return 0
-        leftMax = self.maxDepth(root.left)
+        leftMax = self.maxDepth(root.left) #understand this "self"
         rightMax = self.maxDepth(root.right)
         return max(leftMax,rightMax)+1     #"+1" is for root
