@@ -1,5 +1,4 @@
-# sth is wrong apparently, but if i run in repl.it, is was ok...
-class Solution(object):#not working
+class Solution(object):#not REALLY working, 
     def moveZeroes(self, nums):
         """
         :type nums: List[int]
@@ -13,7 +12,7 @@ class Solution(object):#not working
         nums = [x for x in nums if x!=0]
         for i in range (0, count):
         	nums.extend([0])
-        print(nums)
+        print(nums)#it will work here.
 """
 a1 = [0, 1, 0, 3, 12]
 s = Solution()
