@@ -7,13 +7,26 @@ Note:
 You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
 """
-
-class Solution(object):#not REALLY working, 
+class Solution(object):
     def moveZeroes(self, nums):
         """
         :type nums: List[int]
         :rtype: void Do not return anything, modify nums in-place instead.
         """
+        length = len(nums)
+        count = 0
+        for i in range(0, length):
+        	if (nums[i]!=0): # was considering doing == 0 be4. interesting reverse thought.
+        		nums[count]=nums[i]
+        		count = count+1 
+        # after this for loop. nums=[1, 3, 12, 3, 12], count = 3
+        for j in range(count,length):
+        	nums[j]=0
+        	
+"""
+# false answer but good to know,its not working
+class Solution(object):#not REALLY working, 
+    def moveZeroes(self, nums):
         length = len(nums)
         count = 0
         for i in range(0, length):
@@ -23,7 +36,7 @@ class Solution(object):#not REALLY working,
         for i in range (0, count):
         	nums.extend([0])
         print(nums)#it will work here.
-"""
+--------comment of the false code--------
 a1 = [0, 1, 0, 3, 12]
 s = Solution()
 s.moveZeroes(a1) #here print out: [1, 3, 12, 0, 0]
