@@ -10,3 +10,4 @@
 * Overall Level : 1, 2, 3.
 * [LC notes/solutions](http://algorithm.yuanbin.me/zh-hans/index.html)
 * [Why Leetcode](http://selfboot.cn/2016/07/24/leetcode_guide_why/)
+* [Big O Notation/Complexity](http://web.mit.edu/16.070/www/lecture/big_o.pdf)
