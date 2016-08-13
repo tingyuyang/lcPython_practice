@@ -1,6 +1,7 @@
 # LC Python Practice
 >[**Python is Slow?**](http://selfboot.cn/2016/07/24/leetcode_guide_why/)
 
+*https://codility.com/media/train/1-TimeComplexity.pdf
 * http://www.lintcode.com/en/problem/#
 * in Python
 * with note for future reference/review
