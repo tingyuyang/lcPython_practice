@@ -1,5 +1,4 @@
-#You are given an integer n. Count result of sum=  1+2+ ... + n
-
+#Problem: You are given an integer n. Count result of sum=  1+2+ ... + n
 """
 def slow_solution(n):
   result = 0
@@ -16,5 +15,5 @@ result = 0
 for i in range(n):
 	result = result + (i + 1) # i will be 0,1,2,3 every time the for loop runs
 print(result)
-
-# very interesting, the complexity will be O(N)
+#print out 15
+# very interesting, the complexity will be O(N) then ::)
