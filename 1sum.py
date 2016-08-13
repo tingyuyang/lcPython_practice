@@ -1,6 +1,6 @@
 #Problem: You are given an integer n. Count result of sum=  1+2+ ... + n
 
-#the SlOWEST SOLUTION
+#the SlOWEST SOLUTION, time complexity wil be O(N^2)
 """
 def slow_solution(n):
   result = 0
@@ -13,7 +13,7 @@ because this method is nested loop, so the time complexity wil be O(N^2),
 so here is the fast one
 """
 
-# FASTER SOLUTION
+# FASTER SOLUTION time complexity O(N)
 def faster_solution(n):
 	result = 0
 	for i in range(n):
