@@ -1,4 +1,7 @@
 # just a simple stack practice
+# the class stack can be avoid to write by download from link:http://www.pythonworks.org/pythonds
+# and u will need the head line: from pythonds.basic.stack import Stack
+
 class Stack:
      def __init__(self):
          self.items = []
