@@ -15,3 +15,4 @@
 * To Reivew:
   * http://interactivepython.org/runestone/static/pythonds/BasicDS/SimulationPrintingTasks.html
   * http://interactivepython.org/runestone/static/pythonds/BasicDS/InfixPrefixandPostfixExpressions.html
+  *[Node Linked List](http://interactivepython.org/runestone/static/pythonds/BasicDS/ImplementinganUnorderedListLinkedLists.html)
