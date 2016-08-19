@@ -11,4 +11,5 @@ print(convert(1453,16))
 # 1453/16==90......13
 # 13 the reminder will be 'D' (10 will be 'A')
 # 'D' will be the end of output string
+print(convert(10,2)) #>>1010
 
