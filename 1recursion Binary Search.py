@@ -1,3 +1,4 @@
+# no recursion: https://github.com/tingyuyang/lcPython_practice/blob/master/1search%20binary%20search.py
 def binarySearch(list,item):
 	if len(list) ==0:
 		return False
