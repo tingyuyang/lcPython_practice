@@ -12,4 +12,3 @@ print(convert(1453,16))
 # 13 the reminder will be 'D' (10 will be 'A')
 # 'D' will be the end of output string
 
-# Differenr case: Line 6 could be "return convertBase[n%base] + convert(n//base,base)" then >> output will be "DA5"
