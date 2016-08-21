@@ -1,10 +1,10 @@
-def selectionSort(list): #arrange the list in order
-	for i in range(len(list)-1,0,-1):
-		maxPosition = 0
-		for current in range(1,i+1):
-			if list[current]>list[maxPosition]:
+def selectionSort(list):
+	for i in range(len(list)-1,0,-1):#count reverse, because we put the large at the end
+		maxPosition =0
+		for current in range(1,i+1):#start with 1, because it compares against the # in first integer, we try to find the largest #,put the end, ->then second largest, to the second last place
+			if list[maxPosition]<list[current]:
 				maxPosition=current
-		temp = list[i]
+		temp=list[i]
 		list[i]=list[maxPosition]
 		list[maxPosition]=temp
 			
