@@ -26,7 +26,6 @@ def sumSmaller(nums,input):
 					j+=1
 					k=len(nums)-1 #so once i found the "<" as required. i will count from the last item compare against j
 				elif nums[i]+nums[j]+nums[k]>=input:
-					print("been here")
 					k-=1
 
 		i+=1
