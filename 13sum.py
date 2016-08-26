@@ -32,7 +32,7 @@ def threeSum(nums):
 					result.append([nums[i], nums[j], nums[k]])
 					j=j+1 
 					k=k-1
-					while j < k and nums[j] == nums[j - 1]:
+					while j < k and nums[j] == nums[j - 1]: #so maybe the list[-4, -1, -1, 0, 1, 2], for item"-1", because it repeated, we do not wanna print the same list，so we will compare the next item  搜
 						j =j+1
 					while j < k and nums[k] == nums[k + 1]:
 						k =k- 1
