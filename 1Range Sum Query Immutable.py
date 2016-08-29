@@ -16,7 +16,7 @@ class NumArray(object):
 
     def sumRange(self, i, j):
     	if i>j: return 0
-    	elif i==j:return (nums[i])
+    	elif i==j:return (self.nums[i])
     	elif i!=0:
     		return self.sums[j]-self.sums[i-1]
     	else:# i==0
