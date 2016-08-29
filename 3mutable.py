@@ -1,3 +1,4 @@
+#this is BIT!!!!!!
 # nums = [1, 3, 5]
 
 class NumArray(object):
