@@ -26,3 +26,23 @@ class Solution(object):
             if t[i]!=s[i]:
                 return t[i]
         return t[len(t)-1]
+
+
+#interesting Counter Solution：
+class Solution(object):
+    def findTheDifference(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: str
+        """
+        from collections import Counter
+        s=Counter(s)
+        t=Counter(t)
+        for item in t:
+            if s[item]!=t[item]:
+                return item
+"""
+Counter({'c': 1, 'b': 1, 'a': 1})
+Counter({'c': 1, 'e': 1, 'b': 1, 'a': 1})
+"""
