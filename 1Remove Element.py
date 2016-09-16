@@ -21,3 +21,16 @@ class Solution(object):
                 j -= 1
         return j+1
 #final nums=[2，2，3，3]
+
+#easy version, do not need to put the "3" in the end
+class Solution:
+    # @param    A       a list of integers
+    # @param    elem    an integer, value need to be removed
+    # @return an integer
+    def removeElement(self, A, elem):
+        k = 0
+        for i in A:
+            if i != elem:
+                A[k] = i
+                k += 1
+        return k
