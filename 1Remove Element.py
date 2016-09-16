@@ -15,7 +15,7 @@ class Solution(object):
         j = len(nums)-1
         for i in range(len(nums) - 1, -1, -1):
             if nums[i] == val:
-                nums[i], nums[j] = nums[j], nums[i]
+                nums[i], nums[j] = nums[j], nums[i] #for the last round, exchange nums[0] with nums[2]--->(3,2) to (2,3)
                 j -= 1
         return j+1
 #final nums=[2，2，3，3]
