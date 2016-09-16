@@ -10,6 +10,8 @@ Given input array nums = [3,2,2,3], val = 3
 
 Your function should return length = 2, with the first two elements of nums being 2.
 """
+
+#because we will put the  "3" at the end, so its better to count from the END!!!!!
 class Solution(object):
     def removeElement(self, nums, val):
         j = len(nums)-1
